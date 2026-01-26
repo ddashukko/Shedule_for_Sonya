@@ -521,3 +521,55 @@ tr.next td:last-child {
     text-align: left;
   }
 }
+
+/* --- СТИЛІ ДЛЯ ТАЙМЕРА І ПРОГРЕС БАРУ --- */
+.time-tracker-container {
+  background: var(--card-bg);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px solid var(--border-color);
+  transition:
+    background-color 0.3s,
+    border-color 0.3s;
+}
+
+.tracker-text {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--text-primary);
+  line-height: 1.4;
+}
+
+.progress-wrapper {
+  width: 100%;
+  height: 12px;
+  background-color: var(--bg-color); /* Колір фону сторінки як підкладка */
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    var(--accent-green),
+    var(--accent-green-text)
+  );
+  width: 0%;
+  border-radius: 6px;
+  transition: width 1s linear;
+}
+/* Коли йде перерва, смужка стає помаранчевою */
+.progress-fill.break-mode {
+  background: linear-gradient(
+    90deg,
+    var(--accent-orange),
+    var(--accent-orange-text)
+  );
+}
