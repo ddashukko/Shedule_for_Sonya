@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const startDate = new Date(2026, 0, 26);
+  const startDate = new Date(2026, 0, 26); // Початок семестру
   const themeCheckbox = document.getElementById("checkbox");
   const findMeBtn = document.getElementById("findMeBtn");
 
@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
     renderSchedule(window.scheduleData);
     initTabs();
     updateSchedule(true);
+    // Оновлення статусу щохвилини
     setInterval(() => updateSchedule(false), 60000);
   } else {
     console.error("Дані розкладу не знайдені! Перевірте файл data.js");
@@ -45,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (activeRow) {
       activeRow.scrollIntoView({ behavior: "smooth", block: "center" });
     } else {
+      // Якщо пар немає, скролимо до сьогоднішнього дня
       const dayMap = [
         "Неділя",
         "Понеділок",
@@ -110,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       lessons.forEach((lesson) => {
         const tr = document.createElement("tr");
-        tr.className = lesson.type;
+        tr.className = lesson.type; // lek, pr, ind, other
 
         tr.innerHTML = `
                     <td class="time-cell" data-label="Час">${lesson.time}</td>
@@ -142,6 +144,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function updateSchedule(forceSwitchTab = false) {
     const now = new Date();
+    // Розрахунок тижня (чисельник/знаменник)
     const diffTime = now - startDate;
     const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
     const adjustedDays = diffDays < 0 ? 0 : diffDays;
@@ -152,6 +155,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let targetTabId = "lower";
 
+    // Якщо weeksPassed парне (0, 2, 4...) -> верхній, непарне -> нижній
+    // (Це залежить від того, який тиждень був 26 січня. Якщо 26.01 це Верхній, то логіка правильна)
     if (weeksPassed % 2 === 0) {
       targetTabId = "upper";
       statusEl.innerHTML = "Зараз активний: <span>Верхній тиждень</span>";
@@ -192,6 +197,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       day.classList.remove("day-passed");
 
+      // 1. Якщо день вже пройшов на цьому тижні
       if (dayIndex < currentDayIndex && dayIndex !== 0) {
         day.classList.add("day-passed");
         const rows = day.querySelectorAll("tbody tr");
@@ -202,6 +208,7 @@ document.addEventListener("DOMContentLoaded", function () {
         continue;
       }
 
+      // 2. Якщо день попереду
       if (dayIndex > currentDayIndex) {
         const rows = day.querySelectorAll("tbody tr");
         rows.forEach((row) => {
@@ -214,6 +221,7 @@ document.addEventListener("DOMContentLoaded", function () {
         continue;
       }
 
+      // 3. Якщо сьогодні цей день
       if (dayIndex === currentDayIndex) {
         const rows = day.querySelectorAll("tbody tr");
 
@@ -235,6 +243,7 @@ document.addEventListener("DOMContentLoaded", function () {
             row.classList.add("current");
             nextFound = true;
           } else {
+            // Урок ще не почався
             if (!nextFound) {
               row.classList.add("next");
               nextFound = true;
@@ -245,8 +254,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+  // --- ВИПРАВЛЕНА ФУНКЦІЯ ---
   function parseTime(timeStr, dateRef) {
-    const [hours, minutes] = timeStr.trim().split(".").map(Number);
+    // Розділяємо і по крапці (.), і по двокрапці (:)
+    const [hours, minutes] = timeStr.trim().split(/[.:]/).map(Number);
     const newDate = new Date(dateRef);
     newDate.setHours(hours, minutes, 0, 0);
     return newDate;
