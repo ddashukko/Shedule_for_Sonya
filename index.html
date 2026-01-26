@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мій Розклад</title>
+    <link rel="icon" type="image/svg+xml" href="images/icons/kitty.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" as="image" href="images/icons/sun.png" />
+    <link rel="preload" as="image" href="images/icons/moon.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="theme-switch-wrapper">
+      <label class="theme-switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <div class="slider round">
+          <img src="images/icons/sun.png" class="icon sun" alt="Sun" />
+          <img src="images/icons/moon.png" class="icon moon" alt="Moon" />
+        </div>
+      </label>
+    </div>
+
+    <div class="container">
+      <div class="week-status" id="weekStatus">Завантаження...</div>
+
+      <div class="tabs-nav">
+        <button class="tab-btn" id="btn-upper" data-tab="upper">Верхній</button>
+        <button class="tab-btn active" id="btn-lower" data-tab="lower">
+          Нижній
+        </button>
+      </div>
+
+      <div id="upper" class="tab-content"></div>
+      <div id="lower" class="tab-content active"></div>
+    </div>
+
+    <button class="find-me-btn" id="findMeBtn">📍 Де я?</button>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
