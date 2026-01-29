@@ -158,11 +158,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Перетворює "13.55-15.15" у зручний об'єкт
   function parseTimeRange(timeStr) {
-    const [startRaw, endRaw] = timeStr.split("-");
+    if (!timeStr) return { start: 0, end: 0, startStr: "" };
+    const parts = timeStr.split("-");
+    const startRaw = parts[0].trim();
+    const endRaw = parts[1] ? parts[1].trim() : startRaw;
     return {
       start: timeToMinutes(startRaw),
       end: timeToMinutes(endRaw),
-      startStr: startRaw.trim(),
+      startStr: startRaw,
     };
   }
 
@@ -213,6 +216,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const container = document.getElementById(containerId);
     if (!container) return;
     container.innerHTML = "";
+
+    const DAY_START = 8 * 60;
+    const DAY_END = 21 * 60;
+
     for (const [dayName, lessons] of Object.entries(weekData)) {
       const dayDiv = document.createElement("div");
       dayDiv.className = "day";
@@ -224,18 +231,48 @@ document.addEventListener("DOMContentLoaded", function () {
       table.innerHTML = `<thead><tr><th>Час</th><th>Предмет</th><th>Тип</th><th>Викладач</th><th>Лінк</th></tr></thead><tbody></tbody>`;
       const tbody = table.querySelector("tbody");
 
-      lessons.forEach((lesson) => {
-        const tr = document.createElement("tr");
-        tr.className = lesson.type;
-        tr.innerHTML = `
-            <td class="time-cell">${lesson.time}</td>
-            <td class="subject-cell">${lesson.subject}</td>
-            <td data-label="Тип"><span class="badge">${lesson.typeLabel}</span></td>
-            <td class="teacher-cell">${lesson.teacher}</td>
-            <td data-label="Лінк"><a href="${lesson.link}" target="_blank" class="btn-link">${lesson.linkText}</a></td>
-        `;
-        tbody.appendChild(tr);
-      });
+      let lastEnd = DAY_START;
+
+      if (lessons.length === 0) {
+        const freeRow = document.createElement("tr");
+        freeRow.className = "free-time-row";
+        freeRow.innerHTML = `<td colspan="5" class="free-time-cell">☕ Вільний день: ${formatMinutes(DAY_END - DAY_START)}</td>`;
+        tbody.appendChild(freeRow);
+      } else {
+        lessons.forEach((lesson, index) => {
+          const { start, end } = parseTimeRange(lesson.time);
+
+          const gapBefore = start - lastEnd;
+          if (gapBefore >= 50) {
+            const freeRow = document.createElement("tr");
+            freeRow.className = "free-time-row";
+            freeRow.innerHTML = `<td colspan="5" class="free-time-cell">☕ Вільний час: ${formatMinutes(gapBefore)}</td>`;
+            tbody.appendChild(freeRow);
+          }
+
+          const tr = document.createElement("tr");
+          tr.className = lesson.type;
+          tr.innerHTML = `
+              <td class="time-cell">${lesson.time}</td>
+              <td class="subject-cell">${lesson.subject}</td>
+              <td data-label="Тип"><span class="badge">${lesson.typeLabel}</span></td>
+              <td class="teacher-cell">${lesson.teacher}</td>
+              <td data-label="Лінк"><a href="${lesson.link}" target="_blank" class="btn-link">${lesson.linkText}</a></td>
+          `;
+          tbody.appendChild(tr);
+          lastEnd = end;
+
+          if (index === lessons.length - 1) {
+            const gapAfter = DAY_END - lastEnd;
+            if (gapAfter >= 50) {
+              const freeRow = document.createElement("tr");
+              freeRow.className = "free-time-row";
+              freeRow.innerHTML = `<td colspan="5" class="free-time-cell">☕ Вільний час: ${formatMinutes(gapAfter)}</td>`;
+              tbody.appendChild(freeRow);
+            }
+          }
+        });
+      }
       dayDiv.appendChild(table);
       container.appendChild(dayDiv);
     }
@@ -328,31 +365,51 @@ document.addEventListener("DOMContentLoaded", function () {
         });
         continue;
       }
+
       // Майбутні дні
-      if (dIdx > currentDayIndex) {
+      if (dIdx > currentDayIndex || (currentDayIndex === 0 && dIdx !== 0)) {
         day
           .querySelectorAll("tr")
           .forEach((r) => r.classList.remove("passed", "current", "next"));
         continue;
       }
+
       // Поточний день
       if (dIdx === currentDayIndex) {
         let nextFound = false;
-        day.querySelectorAll("tbody tr").forEach((row) => {
-          row.classList.remove("passed", "current", "next");
-          const timeText = row.querySelector(".time-cell").innerText;
-          const { start, end } = parseTimeRange(timeText);
+        // Шукаємо ТІЛЬКИ в тілі таблиці, ігноруючи заголовки
+        const rows = day.querySelectorAll("tbody tr");
 
-          if (currentMinutes > end) {
-            row.classList.add("passed");
-          } else if (currentMinutes >= start && currentMinutes <= end) {
-            row.classList.add("current");
-            nextFound = true;
-          } else {
-            if (!nextFound) {
-              row.classList.add("next");
+        rows.forEach((row) => {
+          row.classList.remove("passed", "current", "next");
+
+          // 1. Пропускаємо рядки вільного часу
+          if (row.classList.contains("free-time-row")) return;
+
+          const timeCell = row.querySelector(".time-cell");
+
+          // 2. Перевіряємо, чи є в комірці текст і чи містить він дефіс (формат часу)
+          if (!timeCell || !timeCell.innerText.includes("-")) return;
+
+          try {
+            const { start, end } = parseTimeRange(timeCell.innerText);
+
+            if (currentMinutes > end) {
+              row.classList.add("passed");
+            } else if (currentMinutes >= start && currentMinutes <= end) {
+              row.classList.add("current");
               nextFound = true;
+            } else {
+              if (!nextFound) {
+                row.classList.add("next");
+                nextFound = true;
+              }
             }
+          } catch (e) {
+            console.warn(
+              "Не вдалося розібрати час у рядку:",
+              timeCell.innerText,
+            );
           }
         });
       }

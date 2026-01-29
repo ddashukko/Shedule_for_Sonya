@@ -1,5 +1,5 @@
 :root {
-  /* Світла тема (за замовчуванням) */
+  /* Світла тема */
   --bg-color: #f3f4f6;
   --card-bg: #ffffff;
   --text-primary: #111827;
@@ -62,7 +62,7 @@ body {
   padding-bottom: 60px;
 }
 
-/* --- Стилі перемикача --- */
+/* --- Стилі перемикача (ОНОВЛЕНО) --- */
 .theme-switch-wrapper {
   display: flex;
   justify-content: flex-end;
@@ -105,33 +105,38 @@ body {
   width: 26px;
   border-radius: 50%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  z-index: 2;
+  z-index: 2; /* Кружок вище іконок */
 }
 
-/* Іконки всередині перемикача */
+/* Іконки */
 .icon {
   position: absolute;
   top: 7px;
   width: 20px;
   height: 20px;
-  transition:
-    opacity 0.4s ease,
-    transform 0.4s ease;
+  transition: transform 0.4s ease;
+  z-index: 1; /* Іконки нижче кружка */
+  pointer-events: none;
+  fill: #ffffff; /* Білий колір для обох іконок для кращого контрасту */
 }
 
+/* Сонце - ТЕПЕР СПРАВА (видно, коли кружок зліва) */
 .sun {
-  left: 7px;
-  opacity: 1;
-  transform: rotate(0deg);
-}
-
-.moon {
   right: 7px;
-  opacity: 0;
-  transform: rotate(360deg);
+  left: auto;
+  transform: rotate(0deg);
+  opacity: 0.3;
 }
 
-/* Анімація при переключенні */
+/* Місяць - ТЕПЕР ЗЛІВА (видно, коли кружок справа) */
+.moon {
+  left: 7px;
+  right: auto;
+  transform: rotate(180deg);
+  opacity: 0.7;
+}
+
+/* Логіка анімації */
 input:checked + .slider {
   background-color: var(--switch-bg-night);
 }
@@ -141,14 +146,14 @@ input:checked + .slider:before {
 }
 
 input:checked + .slider .sun {
-  opacity: 0;
-  transform: rotate(-360deg);
+  transform: rotate(180deg);
 }
 
 input:checked + .slider .moon {
-  opacity: 1;
   transform: rotate(0deg);
 }
+
+/* --- Решта стилів без змін --- */
 
 /* --- Стилі кнопки "Де я" --- */
 .find-me-btn {
@@ -547,7 +552,7 @@ tr.next td:last-child {
 .progress-wrapper {
   width: 100%;
   height: 12px;
-  background-color: var(--bg-color); /* Колір фону сторінки як підкладка */
+  background-color: var(--bg-color);
   border-radius: 6px;
   overflow: hidden;
   position: relative;
@@ -565,11 +570,46 @@ tr.next td:last-child {
   border-radius: 6px;
   transition: width 1s linear;
 }
-/* Коли йде перерва, смужка стає помаранчевою */
+
 .progress-fill.break-mode {
   background: linear-gradient(
     90deg,
     var(--accent-orange),
     var(--accent-orange-text)
   );
+}
+
+.free-time-row {
+  transition: all 0.3s ease;
+}
+
+.free-time-cell {
+  text-align: center;
+  background-color: var(--accent-blue-light) !important;
+  color: var(--accent-blue-text) !important;
+  font-weight: 600;
+  border-radius: 12px;
+  padding: 12px !important;
+  border: 2px dashed var(--accent-blue) !important;
+  font-size: 0.9rem;
+}
+
+[data-theme="dark"] .free-time-cell {
+  background-color: rgba(59, 130, 246, 0.1) !important;
+  border-color: rgba(96, 165, 250, 0.4) !important;
+}
+
+@media (max-width: 768px) {
+  .free-time-row {
+    border: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 10px 0;
+  }
+
+  .free-time-cell {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
 }
