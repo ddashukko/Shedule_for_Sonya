@@ -87,14 +87,18 @@ document.addEventListener("DOMContentLoaded", function () {
           const tr = document.createElement("tr");
           tr.className = lesson.type;
 
-          // ДОДАНО КНОПКУ РЕДАГУВАННЯ (ОЛІВЕЦЬ)
+          // --- ВИПРАВЛЕННЯ ТУТ ---
+          // Ми використовуємо ( \" ) замість ( ' ) для передачі тексту
+          // Це дозволяє використовувати апострофи в назвах (П'ятниця, Ім'я)
+          const safeSubject = lesson.subject.replace(/"/g, "&quot;"); // На випадок лапок у назві
+
           tr.innerHTML = `
                         <td class="time-cell">${lesson.time}</td>
                         <td class="subject-cell">
                             ${lesson.subject}
                             <div class="action-btns">
-                                <button class="edit-lesson-btn" onclick="openEditModal('${containerId}', '${dayName}', ${index})">✎</button>
-                                <button class="delete-btn" onclick="requestDelete('${containerId}', '${dayName}', ${index}, '${lesson.subject}')">🗑</button>
+                                <button class="edit-lesson-btn" onclick='openEditModal("${containerId}", "${dayName}", ${index})'>✎</button>
+                                <button class="delete-btn" onclick='requestDelete("${containerId}", "${dayName}", ${index}, "${safeSubject}")'>🗑</button>
                             </div>
                         </td>
                         <td data-label="Тип"><span class="badge">${lesson.typeLabel}</span></td>
