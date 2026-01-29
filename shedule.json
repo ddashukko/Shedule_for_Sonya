@@ -1,0 +1,530 @@
+{
+  "upper": {
+    "Понеділок": [
+      {
+        "time": "8.40-10.15",
+        "subject": "Алгебра та геометрія",
+        "type": "pr",
+        "typeLabel": "Пара",
+        "teacher": "Довгай",
+        "link": "https://knu-ua.zoom.us/j/88197737659?pwd=Pg5TzFdemQ94PdCUne7wvtwagVGdeC.1",
+        "linkText": "Zoom"
+      },
+      {
+        "time": "10.35-12.10",
+        "subject": "Математичний аналіз",
+        "type": "lek",
+        "typeLabel": "Пара",
+        "teacher": "Затула",
+        "link": "",
+        "linkText": "-"
+      },
+      {
+        "time": "12.20-13.55",
+        "subject": "Українська та зарубіжна культура",
+        "type": "lek",
+        "typeLabel": "Пара",
+        "teacher": "Сторожук С.В.",
+        "link": "https://us05web.zoom.us/j/5045167345?pwd=RkFpc3p2TkpmS1BCWW9SMVRBeE1Bdz09&omn=83795793519",
+        "linkText": "Zoom"
+      },
+      {
+        "time": "15:00-16:00",
+        "subject": "Урок з Софійкою",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "Мама Елена",
+        "link": "",
+        "linkText": "-"
+      },
+      {
+        "time": "19:00-19:55",
+        "subject": "Урок з Маринкою",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "",
+        "link": "https://meet.google.com/ubk-ucgw-aun",
+        "linkText": "Meet"
+      },
+      {
+        "time": "20:00-21:00",
+        "subject": "Урок з Артуром",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "",
+        "link": "https://us05web.zoom.us/j/85890954549?pwd=7vPzlpqs175m5c7oiDa2JSJX1HtH1j",
+        "linkText": "Zoom"
+      }
+    ],
+    "Вівторок": [
+      {
+        "time": "8.40-10.15",
+        "subject": "Дискретна математика",
+        "type": "pr",
+        "typeLabel": "Пара",
+        "teacher": "Шевченко",
+        "link": "https://knu-ua.zoom.us/j/83595388089?pwd=4z0bGaV7blSUHxXvb9AOeKykC09zHS.1",
+        "linkText": "Zoom"
+      },
+      {
+        "time": "10.35-12.10",
+        "subject": "Програмування",
+        "type": "pr",
+        "typeLabel": "Пара",
+        "teacher": "Карнаух",
+        "link": "https://meet.google.com/san-qkey-oku",
+        "linkText": "Meet"
+      },
+      {
+        "time": "12.20-13.55",
+        "subject": "Комп'ютерні мережі",
+        "type": "pr",
+        "typeLabel": "Пара",
+        "teacher": "Зінько",
+        "link": "https://meet.google.com/cfs-mmog-zuv",
+        "linkText": "Meet"
+      },
+      {
+        "time": "18:00-19:00",
+        "subject": "Урок Настя",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "",
+        "link": "https://meet.google.com/chq-jcpc-htg",
+        "linkText": "Meet"
+      }
+    ],
+    "Середа": [
+      {
+        "time": "08.00-09.00",
+        "subject": "Урок Всеволод",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "",
+        "link": "https://meet.google.com/dok-qown-avp",
+        "linkText": "Meet"
+      },
+      {
+        "time": "8.40-10.15",
+        "subject": "Алгебра та геометрія",
+        "type": "pr",
+        "typeLabel": "Пара",
+        "teacher": "Браганець",
+        "link": "",
+        "linkText": "Zoom"
+      },
+      {
+        "time": "10.35-12.10",
+        "subject": "Іноземна мова",
+        "type": "pr",
+        "typeLabel": "Пара",
+        "teacher": "Лисенко",
+        "link": "",
+        "linkText": "-"
+      },
+      {
+        "time": "12.20-13.55",
+        "subject": "Дискретна математика",
+        "type": "pr",
+        "typeLabel": "Пара",
+        "teacher": "Єфремов",
+        "link": "",
+        "linkText": "-"
+      },
+      {
+        "time": "15:00-16:00",
+        "subject": "Урок з Софійкою",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "Мама Елена",
+        "link": "",
+        "linkText": "-"
+      },
+      {
+        "time": "16:00-17:00",
+        "subject": "Урок Вадим",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "",
+        "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1",
+        "linkText": "Zoom"
+      },
+      {
+        "time": "20:00-21:00",
+        "subject": "Урок Яра",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "",
+        "link": "https://meet.google.com/yni-xxit-pfc",
+        "linkText": "Meet"
+      }
+    ],
+    "Четвер": [
+      {
+        "time": "8.40-10.15",
+        "subject": "Комп'ютерні мережі",
+        "type": "pr",
+        "typeLabel": "Пара",
+        "teacher": "Афонін",
+        "link": "https://knu-ua.zoom.us/j/5124894795?pwd=VjVYNVVISUNiZm40RTdNeHdHSHc4UT09",
+        "linkText": "Zoom"
+      },
+      {
+        "time": "10.35-12.10",
+        "subject": "Алгебра та геометрія",
+        "type": "pr",
+        "typeLabel": "Пара",
+        "teacher": "Браганець",
+        "link": "",
+        "linkText": "Zoom"
+      },
+      {
+        "time": "18:00-18:50",
+        "subject": "Урок Настя",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "",
+        "link": "https://meet.google.com/chq-jcpc-htg",
+        "linkText": "Meet"
+      },
+      {
+        "time": "19:00-19:50",
+        "subject": "Урок Настя (укрмова)",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "",
+        "link": "https://meet.google.com/iev-xbft-wkn",
+        "linkText": "Meet"
+      },
+      {
+        "time": "20:00-21:00",
+        "subject": "Урок Артур",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "",
+        "link": "https://us05web.zoom.us/j/85890954549?pwd=7vPzlpqs175m5c7oiDa2JSJX1HtH1j",
+        "linkText": "Zoom"
+      }
+    ],
+    "П'ятниця": [
+      {
+        "time": "08.00-09.00",
+        "subject": "Урок Всеволод",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "",
+        "link": "https://meet.google.com/dok-qown-avp",
+        "linkText": "Meet"
+      },
+      {
+        "time": "8.40-10.15",
+        "subject": "Програмування",
+        "type": "pr",
+        "typeLabel": "Пара",
+        "teacher": "Веклич",
+        "link": "",
+        "linkText": "-"
+      },
+      {
+        "time": "10.35-12.10",
+        "subject": "Математичний аналіз",
+        "type": "lek",
+        "typeLabel": "Пара",
+        "teacher": "Аджубей",
+        "link": "",
+        "linkText": "-"
+      },
+      {
+        "time": "12.20-13.55",
+        "subject": "Іноземна мова",
+        "type": "pr",
+        "typeLabel": "Пара",
+        "teacher": "Лисенко",
+        "link": "",
+        "linkText": "-"
+      },
+      {
+        "time": "14.05-15.40",
+        "subject": "Українська та зарубіжна культура",
+        "type": "lek",
+        "typeLabel": "Пара",
+        "teacher": "Сторожук",
+        "link": "https://us05web.zoom.us/j/5045167345?pwd=RkFpc3p2TkpmS1BCWW9SMVRBeE1Bdz09&omn=83795793519",
+        "linkText": "Zoom"
+      },
+      {
+        "time": "16:00-17:00",
+        "subject": "Урок Вадим",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "",
+        "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1",
+        "linkText": "Zoom"
+      }
+    ]
+  },
+  "lower": {
+    "Понеділок": [
+      {
+        "time": "8.40-10.15",
+        "subject": "Алгебра та геометрія",
+        "type": "pr",
+        "typeLabel": "Пара",
+        "teacher": "Довгай",
+        "link": "https://knu-ua.zoom.us/j/88197737659?pwd=Pg5TzFdemQ94PdCUne7wvtwagVGdeC.1",
+        "linkText": "Zoom"
+      },
+      {
+        "time": "10.35-12.10",
+        "subject": "Математичний аналіз",
+        "type": "lek",
+        "typeLabel": "Пара",
+        "teacher": "Затула",
+        "link": "",
+        "linkText": "-"
+      },
+      {
+        "time": "12.20-13.55",
+        "subject": "Українська та зарубіжна культура",
+        "type": "lek",
+        "typeLabel": "Пара",
+        "teacher": "Сторожук С.В.",
+        "link": "https://us05web.zoom.us/j/5045167345?pwd=RkFpc3p2TkpmS1BCWW9SMVRBeE1Bdz09&omn=83795793519",
+        "linkText": "Zoom"
+      },
+      {
+        "time": "15:00-16:00",
+        "subject": "Урок з Софійкою",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "Мама Елена",
+        "link": "",
+        "linkText": "-"
+      },
+      {
+        "time": "19:00-19:55",
+        "subject": "Урок з Маринкою",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "",
+        "link": "https://meet.google.com/ubk-ucgw-aun",
+        "linkText": "Meet"
+      },
+      {
+        "time": "20:00-21:00",
+        "subject": "Урок з Артуром",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "",
+        "link": "https://us05web.zoom.us/j/85890954549?pwd=7vPzlpqs175m5c7oiDa2JSJX1HtH1j",
+        "linkText": "Zoom"
+      }
+    ],
+    "Вівторок": [
+      {
+        "time": "8.40-10.15",
+        "subject": "Дискретна математика",
+        "type": "pr",
+        "typeLabel": "Пара",
+        "teacher": "Шевченко",
+        "link": "https://knu-ua.zoom.us/j/83595388089?pwd=4z0bGaV7blSUHxXvb9AOeKykC09zHS.1",
+        "linkText": "Zoom"
+      },
+      {
+        "time": "10.35-12.10",
+        "subject": "Програмування",
+        "type": "pr",
+        "typeLabel": "Пара",
+        "teacher": "Карнаух",
+        "link": "https://meet.google.com/san-qkey-oku",
+        "linkText": "Meet"
+      },
+      {
+        "time": "12.20-13.55",
+        "subject": "Комп'ютерні мережі",
+        "type": "pr",
+        "typeLabel": "Пара",
+        "teacher": "Зінько",
+        "link": "https://meet.google.com/cfs-mmog-zuv",
+        "linkText": "Meet"
+      },
+      {
+        "time": "18:00-19:00",
+        "subject": "Урок Настя",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "",
+        "link": "https://meet.google.com/chq-jcpc-htg",
+        "linkText": "Meet"
+      }
+    ],
+    "Середа": [
+      {
+        "time": "08.00-09.00",
+        "subject": "Урок Всеволод",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "",
+        "link": "https://meet.google.com/dok-qown-avp",
+        "linkText": "Meet"
+      },
+      {
+        "time": "8.40-10.15",
+        "subject": "Алгебра та геометрія",
+        "type": "pr",
+        "typeLabel": "Пара",
+        "teacher": "Браганець",
+        "link": "",
+        "linkText": "Zoom"
+      },
+      {
+        "time": "10.35-12.10",
+        "subject": "Іноземна мова",
+        "type": "pr",
+        "typeLabel": "Пара",
+        "teacher": "Лисенко",
+        "link": "",
+        "linkText": "-"
+      },
+      {
+        "time": "12.20-13.55",
+        "subject": "Дискретна математика",
+        "type": "pr",
+        "typeLabel": "Пара",
+        "teacher": "Єфремов",
+        "link": "",
+        "linkText": "-"
+      },
+      {
+        "time": "15:00-16:00",
+        "subject": "Урок з Софійкою",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "Мама Елена",
+        "link": "",
+        "linkText": "-"
+      },
+      {
+        "time": "16:00-17:00",
+        "subject": "Урок Вадим",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "",
+        "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1",
+        "linkText": "Zoom"
+      },
+      {
+        "time": "20:00-21:00",
+        "subject": "Урок Яра",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "",
+        "link": "https://meet.google.com/yni-xxit-pfc",
+        "linkText": "Meet"
+      }
+    ],
+    "Четвер": [
+      {
+        "time": "8.40-10.15",
+        "subject": "Комп'ютерні мережі",
+        "type": "pr",
+        "typeLabel": "Пара",
+        "teacher": "Афонін",
+        "link": "https://knu-ua.zoom.us/j/5124894795?pwd=VjVYNVVISUNiZm40RTdNeHdHSHc4UT09",
+        "linkText": "Zoom"
+      },
+      {
+        "time": "10.35-12.10",
+        "subject": "Алгебра та геометрія",
+        "type": "pr",
+        "typeLabel": "Пара",
+        "teacher": "Браганець",
+        "link": "",
+        "linkText": "Zoom"
+      },
+      {
+        "time": "18:00-18:50",
+        "subject": "Урок Настя",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "",
+        "link": "https://meet.google.com/chq-jcpc-htg",
+        "linkText": "Meet"
+      },
+      {
+        "time": "19:00-19:50",
+        "subject": "Урок Настя (укрмова)",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "",
+        "link": "https://meet.google.com/iev-xbft-wkn",
+        "linkText": "Meet"
+      },
+      {
+        "time": "20:00-21:00",
+        "subject": "Урок Артур",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "",
+        "link": "https://us05web.zoom.us/j/85890954549?pwd=7vPzlpqs175m5c7oiDa2JSJX1HtH1j",
+        "linkText": "Zoom"
+      }
+    ],
+    "П'ятниця": [
+      {
+        "time": "08.00-09.00",
+        "subject": "Урок Всеволод",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "",
+        "link": "https://meet.google.com/dok-qown-avp",
+        "linkText": "Meet"
+      },
+      {
+        "time": "8.40-10.15",
+        "subject": "Програмування",
+        "type": "pr",
+        "typeLabel": "Пара",
+        "teacher": "Веклич",
+        "link": "",
+        "linkText": "-"
+      },
+      {
+        "time": "10.35-12.10",
+        "subject": "Математичний аналіз",
+        "type": "lek",
+        "typeLabel": "Пара",
+        "teacher": "Аджубей",
+        "link": "",
+        "linkText": "-"
+      },
+      {
+        "time": "12.20-13.55",
+        "subject": "Іноземна мова",
+        "type": "pr",
+        "typeLabel": "Пара",
+        "teacher": "Лисенко",
+        "link": "",
+        "linkText": "-"
+      },
+      {
+        "time": "14.05-15.40",
+        "subject": "Українська та зарубіжна культура",
+        "type": "lek",
+        "typeLabel": "Пара",
+        "teacher": "Сторожук",
+        "link": "https://us05web.zoom.us/j/5045167345?pwd=RkFpc3p2TkpmS1BCWW9SMVRBeE1Bdz09&omn=83795793519",
+        "linkText": "Zoom"
+      },
+      {
+        "time": "16:00-17:00",
+        "subject": "Урок Вадим",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "",
+        "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1",
+        "linkText": "Zoom"
+      }
+    ]
+  }
+}

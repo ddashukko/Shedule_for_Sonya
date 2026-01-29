@@ -10,6 +10,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-database-compat.js"></script>
   </head>
   <body>
     <div class="theme-switch-wrapper">
@@ -49,7 +51,79 @@
 
     <button class="find-me-btn" id="findMeBtn">📍 Де я?</button>
 
-    <script src="data.js"></script>
+    <button id="adminBtn" class="admin-btn">⚙️</button>
+
+    <div id="adminModal" class="modal">
+      <div class="modal-content">
+        <h3>Додати/Редагувати</h3>
+        <form id="editForm">
+          <select id="editWeek">
+            <option value="upper">Верхній тиждень</option>
+            <option value="lower">Нижній тиждень</option>
+          </select>
+          <select id="editDay">
+            <option>Понеділок</option>
+            <option>Вівторок</option>
+            <option>Середа</option>
+            <option>Четвер</option>
+            <option>П'ятниця</option>
+            <option>Субота</option>
+            <option>Неділя</option>
+          </select>
+          <input
+            type="text"
+            id="editSubject"
+            placeholder="Назва предмета"
+            required
+          />
+          <input
+            type="text"
+            id="editTime"
+            placeholder="Час (напр. 14:00-15:30)"
+            required
+          />
+          <select id="editType">
+            <option value="ind">Індивідуальне (Інд)</option>
+            <option value="pr">Практика (Пара)</option>
+            <option value="lek">Лекція (Пара)</option>
+          </select>
+          <input
+            type="text"
+            id="editTeacher"
+            placeholder="Викладач / Ім'я учня"
+          />
+          <input
+            type="text"
+            id="editLink"
+            placeholder="Посилання (Zoom/Meet)"
+          />
+
+          <div class="modal-btns">
+            <button type="submit" class="save-btn">Зберегти</button>
+            <button type="button" id="closeModal" class="cancel-btn">
+              Закрити
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyDZYlakmrb8t-8KsqNa4aGHUeFZQYvR5yY",
+        authDomain: "shedule-a90dc.firebaseapp.com",
+        databaseURL:
+          "https://shedule-a90dc-default-rtdb.europe-west1.firebasedatabase.app",
+        projectId: "shedule-a90dc",
+        storageBucket: "shedule-a90dc.firebasestorage.app",
+        messagingSenderId: "485206987208",
+        appId: "1:485206987208:web:b5a10dff4035bcf58bb0fd",
+      };
+
+      // Ініціалізація Firebase
+      firebase.initializeApp(firebaseConfig);
+      const db = firebase.database();
+    </script>
     <script src="script.js"></script>
   </body>
 </html>
