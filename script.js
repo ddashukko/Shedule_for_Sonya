@@ -72,6 +72,9 @@ document.addEventListener("DOMContentLoaded", function () {
       dayDiv.innerHTML = `<h2>${dayName}</h2><table><thead><tr><th>Час</th><th>Предмет</th><th>Тип</th><th>Викладач</th><th>Лінк</th></tr></thead><tbody></tbody></table>`;
       const tbody = dayDiv.querySelector("tbody");
 
+      // 1. Екрануємо назву дня (П'ятниця -> П\'ятниця)
+      const safeDayName = dayName.replace(/'/g, "\\'");
+
       let lastEnd = DAY_START;
       const sortedLessons = [...lessons].sort(
         (a, b) => parseTimeRange(a.time).start - parseTimeRange(b.time).start,
@@ -87,18 +90,19 @@ document.addEventListener("DOMContentLoaded", function () {
           const tr = document.createElement("tr");
           tr.className = lesson.type;
 
-          // --- ВИПРАВЛЕННЯ ТУТ ---
-          // Ми використовуємо ( \" ) замість ( ' ) для передачі тексту
-          // Це дозволяє використовувати апострофи в назвах (П'ятниця, Ім'я)
-          const safeSubject = lesson.subject.replace(/"/g, "&quot;"); // На випадок лапок у назві
+          // 2. Екрануємо назву предмету (для лапок ' та " в назві)
+          const safeSubject = lesson.subject
+            .replace(/'/g, "\\'") // ' -> \'
+            .replace(/"/g, "&quot;"); // " -> &quot;
 
+          // 3. Використовуємо onclick="..." (подвійні лапки зовні)
           tr.innerHTML = `
                         <td class="time-cell">${lesson.time}</td>
                         <td class="subject-cell">
                             ${lesson.subject}
                             <div class="action-btns">
-                                <button class="edit-lesson-btn" onclick='openEditModal("${containerId}", "${dayName}", ${index})'>✎</button>
-                                <button class="delete-btn" onclick='requestDelete("${containerId}", "${dayName}", ${index}, "${safeSubject}")'>🗑</button>
+                                <button class="edit-lesson-btn" onclick="openEditModal('${containerId}', '${safeDayName}', ${index})">✎</button>
+                                <button class="delete-btn" onclick="requestDelete('${containerId}', '${safeDayName}', ${index}, '${safeSubject}')">🗑</button>
                             </div>
                         </td>
                         <td data-label="Тип"><span class="badge">${lesson.typeLabel}</span></td>
