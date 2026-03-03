@@ -101,7 +101,7 @@
         "teacher": "",
         "link": "https://meet.google.com/chq-jcpc-htg",
         "linkText": "Meet"
-      }
+      },
       {
         "time": "19:00-20:00",
         "subject": "Урок Тимофій",
@@ -156,6 +156,15 @@
         "typeLabel": "Інд",
         "teacher": "",
         "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1",
+        "linkText": "Zoom"
+      },
+        {
+        "time": "19:00-20:00",
+        "subject": "Урок Всеволод",
+        "type": "ind",
+        "typeLabel": "Інд",
+        "teacher": "",
+        "link": "https://us05web.zoom.us/j/87180665154?pwd=p5ybJFzENbNayZZLMpbiU4UOb6J431.1",
         "linkText": "Zoom"
       },
       {
@@ -275,15 +284,6 @@
         "linkText": "Zoom"
       },
       {
-        "time": "10.00-11.00",
-        "subject": "Урок Всеволод",
-        "type": "ind",
-        "typeLabel": "Індивідуальне",
-        "teacher": "",
-        "link": "https://us05web.zoom.us/j/87180665154?pwd=p5ybJFzENbNayZZLMpbiU4UOb6J431.1",
-        "linkText": "Zoom"
-      },
-       {
         "time": "10.00-11.00",
         "subject": "Урок Всеволод",
         "type": "ind",
