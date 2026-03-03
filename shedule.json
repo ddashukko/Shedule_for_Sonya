@@ -73,9 +73,8 @@
     ],
     "П'ятниця": [
       { "time": "8.40-10.15", "subject": "Програмування", "type": "pr", "typeLabel": "Пара", "teacher": "Веклич", "link": "https://knu-ua.zoom.us/j/83616411290?pwd=bo7ykPnLn6oFEAcedRgNxxB9ldMRUQ.1", "linkText": "234" },
-      { "time": "10.35-12.10", "subject": "Математичний аналіз", "type": "pr", "typeLabel": "Пара", "teacher": "Аджубей", "link": "https://us05web.zoom.us/j/7886843784?pwd=MDdpTFZHamUvUUNnVUFHRUp6dStwQT09", "linkText": "303" },
-      { "time": "12.20-13.55", "subject": "Іноземна мова", "type": "pr", "typeLabel": "Пара", "teacher": "Лисенко", "link": "https://us05web.zoom.us/j/6096223911?pwd=aC9qb0dIc2pwei9DVG85OVBpZkY2Zz09", "linkText": "311" },
-      { "time": "14.05-15.40", "subject": "Математичний аналіз", "type": "pr", "typeLabel": "Пара", "teacher": "Аджубей", "link": "https://us05web.zoom.us/j/7886843784?pwd=MDdpTFZHamUvUUNnVUFHRUp6dStwQT09", "linkText": "303" },
+      { "time": "10.35-12.10", "subject": "Математичний аналіз", "type": "pr", "typeLabel": "Пара", "teacher": "Аджубей", "link": "https://us05web.zoom.us/j/7886843784?pwd=MDdpTFZHamUvUUNnVUFHRUp6dStwQT09", "linkText":"303" },
+      { "time": "12.20-13.55", "subject": "Математичний аналіз", "type": "pr", "typeLabel": "Пара", "teacher": "Аджубей", "link": "https://us05web.zoom.us/j/7886843784?pwd=MDdpTFZHamUvUUNnVUFHRUp6dStwQT09", "linkText": "303" },
       { "time": "16:00-17:00", "subject": "Урок Вадим", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1", "linkText": "Zoom" }
     ]
   }
