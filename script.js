@@ -22,18 +22,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // 2. FIREBASE
   const scheduleRef = db.ref("/");
-  scheduleRef.on("value", (snapshot) => {
-    const data = snapshot.val();
-    if (data) {
+ // 2. ЗАВАНТАЖЕННЯ З JSON ФАЙЛУ
+  fetch('shedule.json')
+    .then(response => {
+      if (!response.ok) throw new Error("Файл не знайдено");
+      return response.json();
+    })
+    .then(data => {
       window.scheduleData = data;
       renderSchedule(data);
       initTabs();
       updateSchedule(true);
       updateTimeTracker();
-    } else {
-      document.getElementById("weekStatus").innerText = "База даних порожня";
-    }
-  });
+    })
+    .catch(error => {
+      console.error("Помилка завантаження:", error);
+      document.getElementById("weekStatus").innerText = "Помилка завантаження JSON";
+    });
 
   setInterval(updateTimeTracker, 1000);
   setInterval(() => updateSchedule(false), 60000);
