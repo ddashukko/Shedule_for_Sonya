@@ -10,14 +10,23 @@
         "link": "https://knu-ua.zoom.us/j/88197737659?pwd=Pg5TzFdemQ94PdCUne7wvtwagVGdeC.1",
         "linkText": "Zoom"
       },
+       {
+        "time": "10.00-11.00",
+        "subject": "Урок Всеволод",
+        "type": "ind",
+        "typeLabel": "Індивідуальне",
+        "teacher": "",
+        "link": "https://us05web.zoom.us/j/87180665154?pwd=p5ybJFzENbNayZZLMpbiU4UOb6J431.1",
+        "linkText": "Zoom"
+      },
       {
         "time": "10.35-12.10",
         "subject": "Математичний аналіз",
         "type": "lek",
         "typeLabel": "Пара",
         "teacher": "Затула",
-        "link": "",
-        "linkText": "-"
+        "link": "https://knu-ua.zoom.us/j/89756061635?pwd=ArffwsymEBybrxIv0jVLtJKfpdNtH7.1",
+        "linkText": "Zoom"
       },
       {
         "time": "12.20-13.55",
@@ -33,9 +42,9 @@
         "subject": "Урок з Софійкою",
         "type": "ind",
         "typeLabel": "Інд",
-        "teacher": "Мама Елена",
-        "link": "",
-        "linkText": "-"
+        "teacher": "",
+        "link": "https://us05web.zoom.us/j/84766398747?pwd=5hRFIr5saD7dUg3r0PtVFY9dtseafK.1",
+        "linkText": "Zoom"
       },
       {
         "time": "19:00-19:55",
@@ -43,8 +52,8 @@
         "type": "ind",
         "typeLabel": "Інд",
         "teacher": "",
-        "link": "https://meet.google.com/ubk-ucgw-aun",
-        "linkText": "Meet"
+        "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1",
+        "linkText": "Zoom"
       },
       {
         "time": "20:00-21:00",
@@ -81,7 +90,7 @@
         "type": "pr",
         "typeLabel": "Пара",
         "teacher": "Зінько",
-        "link": "https://meet.google.com/cfs-mmog-zuv",
+        "link": "https://meet.google.com/pjh-ccdz-yrc",
         "linkText": "Meet"
       },
       {
@@ -93,25 +102,25 @@
         "link": "https://meet.google.com/chq-jcpc-htg",
         "linkText": "Meet"
       }
-    ],
-    "Середа": [
       {
-        "time": "08.00-09.00",
-        "subject": "Урок Всеволод",
+        "time": "19:00-20:00",
+        "subject": "Урок Тимофій",
         "type": "ind",
         "typeLabel": "Інд",
         "teacher": "",
-        "link": "https://meet.google.com/dok-qown-avp",
-        "linkText": "Meet"
-      },
+        "link": "https://us05web.zoom.us/j/84766398747?pwd=5hRFIr5saD7dUg3r0PtVFY9dtseafK.1",
+        "linkText": "Zoom"
+      }
+    ],
+    "Середа": [
       {
         "time": "8.40-10.15",
         "subject": "Алгебра та геометрія",
         "type": "pr",
         "typeLabel": "Пара",
         "teacher": "Браганець",
-        "link": "",
-        "linkText": "Zoom"
+        "link": "https://us04web.zoom.us/j/76479733144?pwd=d0JOQ3ZxL3F6WUhad25xTi9NYmV4Zz09",
+        "linkText": "18"
       },
       {
         "time": "10.35-12.10",
@@ -119,8 +128,8 @@
         "type": "pr",
         "typeLabel": "Пара",
         "teacher": "Лисенко",
-        "link": "",
-        "linkText": "-"
+        "link": "https://us05web.zoom.us/j/6096223911?pwd=aC9qb0dIc2pwei9DVG85OVBpZkY2Zz09",
+        "linkText": "1"
       },
       {
         "time": "12.20-13.55",
@@ -128,17 +137,17 @@
         "type": "pr",
         "typeLabel": "Пара",
         "teacher": "Єфремов",
-        "link": "",
-        "linkText": "-"
+        "link": "https://knu-ua.zoom.us/meetings/7486881580/invitations?signature=J41JVFIZXT7cObA0U8WWoKKrYv9TbWFKMSQ1SVWqgQk",
+        "linkText": "705"
       },
       {
         "time": "15:00-16:00",
         "subject": "Урок з Софійкою",
         "type": "ind",
         "typeLabel": "Інд",
-        "teacher": "Мама Елена",
-        "link": "",
-        "linkText": "-"
+        "teacher": "",
+        "link": "https://us05web.zoom.us/j/84766398747?pwd=5hRFIr5saD7dUg3r0PtVFY9dtseafK.1",
+        "linkText": "Zoom"
       },
       {
         "time": "16:00-17:00",
@@ -151,12 +160,12 @@
       },
       {
         "time": "20:00-21:00",
-        "subject": "Урок Яра",
+        "subject": "Урок Тимофій",
         "type": "ind",
         "typeLabel": "Інд",
         "teacher": "",
-        "link": "https://meet.google.com/yni-xxit-pfc",
-        "linkText": "Meet"
+        "link": "https://us05web.zoom.us/j/84766398747?pwd=5hRFIr5saD7dUg3r0PtVFY9dtseafK.1",
+        "linkText": "Zoom"
       }
     ],
     "Четвер": [
@@ -167,7 +176,7 @@
         "typeLabel": "Пара",
         "teacher": "Афонін",
         "link": "https://knu-ua.zoom.us/j/5124894795?pwd=VjVYNVVISUNiZm40RTdNeHdHSHc4UT09",
-        "linkText": "Zoom"
+        "linkText": "231"
       },
       {
         "time": "10.35-12.10",
@@ -175,8 +184,17 @@
         "type": "pr",
         "typeLabel": "Пара",
         "teacher": "Браганець",
-        "link": "",
-        "linkText": "Zoom"
+        "link": "https://us04web.zoom.us/j/76479733144?pwd=d0JOQ3ZxL3F6WUhad25xTi9NYmV4Zz09",
+        "linkText": "306"
+      },
+       {
+        "time": "12.20-13.55",
+        "subject": "Програмування",
+        "type": "pr",
+        "typeLabel": "Пара",
+        "teacher": "Веклич",
+        "link": "https://knu-ua.zoom.us/j/83616411290?pwd=bo7ykPnLn6oFEAcedRgNxxB9ldMRUQ.1",
+        "linkText": "2"
       },
       {
         "time": "18:00-18:50",
@@ -185,15 +203,6 @@
         "typeLabel": "Інд",
         "teacher": "",
         "link": "https://meet.google.com/chq-jcpc-htg",
-        "linkText": "Meet"
-      },
-      {
-        "time": "19:00-19:50",
-        "subject": "Урок Настя (укрмова)",
-        "type": "ind",
-        "typeLabel": "Інд",
-        "teacher": "",
-        "link": "https://meet.google.com/iev-xbft-wkn",
         "linkText": "Meet"
       },
       {
@@ -208,22 +217,13 @@
     ],
     "П'ятниця": [
       {
-        "time": "08.00-09.00",
-        "subject": "Урок Всеволод",
-        "type": "ind",
-        "typeLabel": "Інд",
-        "teacher": "",
-        "link": "https://meet.google.com/dok-qown-avp",
-        "linkText": "Meet"
-      },
-      {
         "time": "8.40-10.15",
         "subject": "Програмування",
         "type": "pr",
         "typeLabel": "Пара",
         "teacher": "Веклич",
-        "link": "",
-        "linkText": "-"
+        "link": "https://knu-ua.zoom.us/j/83616411290?pwd=bo7ykPnLn6oFEAcedRgNxxB9ldMRUQ.1",
+        "linkText": "2"
       },
       {
         "time": "10.35-12.10",
@@ -231,8 +231,8 @@
         "type": "lek",
         "typeLabel": "Пара",
         "teacher": "Аджубей",
-        "link": "",
-        "linkText": "-"
+        "link": "https://us05web.zoom.us/j/7886843784?pwd=MDdpTFZHamUvUUNnVUFHRUp6dStwQT09",
+        "linkText": "303"
       },
       {
         "time": "12.20-13.55",
@@ -240,17 +240,17 @@
         "type": "pr",
         "typeLabel": "Пара",
         "teacher": "Лисенко",
-        "link": "",
-        "linkText": "-"
+        "link": "https://us05web.zoom.us/j/6096223911?pwd=aC9qb0dIc2pwei9DVG85OVBpZkY2Zz09",
+        "linkText": "311"
       },
       {
         "time": "14.05-15.40",
         "subject": "Українська та зарубіжна культура",
-        "type": "lek",
+        "type": "pr",
         "typeLabel": "Пара",
         "teacher": "Сторожук",
         "link": "https://us05web.zoom.us/j/5045167345?pwd=RkFpc3p2TkpmS1BCWW9SMVRBeE1Bdz09&omn=83795793519",
-        "linkText": "Zoom"
+        "linkText": "303"
       },
       {
         "time": "16:00-17:00",
@@ -275,13 +275,31 @@
         "linkText": "Zoom"
       },
       {
+        "time": "10.00-11.00",
+        "subject": "Урок Всеволод",
+        "type": "ind",
+        "typeLabel": "Індивідуальне",
+        "teacher": "",
+        "link": "https://us05web.zoom.us/j/87180665154?pwd=p5ybJFzENbNayZZLMpbiU4UOb6J431.1",
+        "linkText": "Zoom"
+      },
+       {
+        "time": "10.00-11.00",
+        "subject": "Урок Всеволод",
+        "type": "ind",
+        "typeLabel": "Індивідуальне",
+        "teacher": "",
+        "link": "https://us05web.zoom.us/j/87180665154?pwd=p5ybJFzENbNayZZLMpbiU4UOb6J431.1",
+        "linkText": "Zoom"
+      },
+      {
         "time": "10.35-12.10",
         "subject": "Математичний аналіз",
         "type": "lek",
         "typeLabel": "Пара",
         "teacher": "Затула",
-        "link": "",
-        "linkText": "-"
+        "link": "https://knu-ua.zoom.us/j/89756061635?pwd=ArffwsymEBybrxIv0jVLtJKfpdNtH7.1",
+        "linkText": "Zoom"
       },
       {
         "time": "12.20-13.55",
@@ -297,9 +315,9 @@
         "subject": "Урок з Софійкою",
         "type": "ind",
         "typeLabel": "Інд",
-        "teacher": "Мама Елена",
-        "link": "",
-        "linkText": "-"
+        "teacher": "",
+        "link": "https://us05web.zoom.us/j/84766398747?pwd=5hRFIr5saD7dUg3r0PtVFY9dtseafK.1",
+        "linkText": "Zoom"
       },
       {
         "time": "19:00-19:55",
@@ -307,8 +325,8 @@
         "type": "ind",
         "typeLabel": "Інд",
         "teacher": "",
-        "link": "https://meet.google.com/ubk-ucgw-aun",
-        "linkText": "Meet"
+        "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1",
+        "linkText": "Zoom"
       },
       {
         "time": "20:00-21:00",
@@ -345,7 +363,7 @@
         "type": "pr",
         "typeLabel": "Пара",
         "teacher": "Зінько",
-        "link": "https://meet.google.com/cfs-mmog-zuv",
+        "link": "https://meet.google.com/pjh-ccdz-yrc",
         "linkText": "Meet"
       },
       {
@@ -357,17 +375,17 @@
         "link": "https://meet.google.com/chq-jcpc-htg",
         "linkText": "Meet"
       }
-    ],
-    "Середа": [
-      {
-        "time": "08.00-09.00",
-        "subject": "Урок Всеволод",
+       {
+        "time": "19:00-20:00",
+        "subject": "Урок Тимофій",
         "type": "ind",
         "typeLabel": "Інд",
         "teacher": "",
-        "link": "https://meet.google.com/dok-qown-avp",
-        "linkText": "Meet"
-      },
+        "link": "https://us05web.zoom.us/j/84766398747?pwd=5hRFIr5saD7dUg3r0PtVFY9dtseafK.1",
+        "linkText": "Zoom"
+      }
+    ],
+    "Середа": [
       {
         "time": "8.40-10.15",
         "subject": "Алгебра та геометрія",
@@ -383,8 +401,8 @@
         "type": "pr",
         "typeLabel": "Пара",
         "teacher": "Лисенко",
-        "link": "",
-        "linkText": "-"
+        "link": "https://us05web.zoom.us/j/6096223911?pwd=aC9qb0dIc2pwei9DVG85OVBpZkY2Zz09",
+        "linkText": "1"
       },
       {
         "time": "12.20-13.55",
@@ -392,17 +410,17 @@
         "type": "pr",
         "typeLabel": "Пара",
         "teacher": "Єфремов",
-        "link": "",
-        "linkText": "-"
+        "link": "https://knu-ua.zoom.us/meetings/7486881580/invitations?signature=J41JVFIZXT7cObA0U8WWoKKrYv9TbWFKMSQ1SVWqgQk",
+        "linkText": "705"
       },
       {
         "time": "15:00-16:00",
         "subject": "Урок з Софійкою",
         "type": "ind",
         "typeLabel": "Інд",
-        "teacher": "Мама Елена",
-        "link": "",
-        "linkText": "-"
+        "teacher": "",
+        "link": "https://us05web.zoom.us/j/84766398747?pwd=5hRFIr5saD7dUg3r0PtVFY9dtseafK.1",
+        "linkText": "Zoom"
       },
       {
         "time": "16:00-17:00",
@@ -413,15 +431,15 @@
         "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1",
         "linkText": "Zoom"
       },
-      {
-        "time": "20:00-21:00",
-        "subject": "Урок Яра",
+       {
+        "time": "19.00-20.00",
+        "subject": "Урок Всеволод",
         "type": "ind",
-        "typeLabel": "Інд",
+        "typeLabel": "Індивідуальне",
         "teacher": "",
-        "link": "https://meet.google.com/yni-xxit-pfc",
-        "linkText": "Meet"
-      }
+        "link": "https://us05web.zoom.us/j/87180665154?pwd=p5ybJFzENbNayZZLMpbiU4UOb6J431.1",
+        "linkText": "Zoom"
+      },
     ],
     "Четвер": [
       {
@@ -431,7 +449,7 @@
         "typeLabel": "Пара",
         "teacher": "Афонін",
         "link": "https://knu-ua.zoom.us/j/5124894795?pwd=VjVYNVVISUNiZm40RTdNeHdHSHc4UT09",
-        "linkText": "Zoom"
+        "linkText": "231"
       },
       {
         "time": "10.35-12.10",
@@ -439,8 +457,17 @@
         "type": "pr",
         "typeLabel": "Пара",
         "teacher": "Браганець",
-        "link": "",
-        "linkText": "Zoom"
+        "link": "https://us04web.zoom.us/j/76479733144?pwd=d0JOQ3ZxL3F6WUhad25xTi9NYmV4Zz09",
+        "linkText": "306"
+      },
+       {
+        "time": "12.20-13.55",
+        "subject": "Програмування",
+        "type": "pr",
+        "typeLabel": "Пара",
+        "teacher": "Веклич",
+        "link": "https://knu-ua.zoom.us/j/83616411290?pwd=bo7ykPnLn6oFEAcedRgNxxB9ldMRUQ.1",
+        "linkText": "2"
       },
       {
         "time": "18:00-18:50",
@@ -449,15 +476,6 @@
         "typeLabel": "Інд",
         "teacher": "",
         "link": "https://meet.google.com/chq-jcpc-htg",
-        "linkText": "Meet"
-      },
-      {
-        "time": "19:00-19:50",
-        "subject": "Урок Настя (укрмова)",
-        "type": "ind",
-        "typeLabel": "Інд",
-        "teacher": "",
-        "link": "https://meet.google.com/iev-xbft-wkn",
         "linkText": "Meet"
       },
       {
@@ -472,31 +490,22 @@
     ],
     "П'ятниця": [
       {
-        "time": "08.00-09.00",
-        "subject": "Урок Всеволод",
-        "type": "ind",
-        "typeLabel": "Інд",
-        "teacher": "",
-        "link": "https://meet.google.com/dok-qown-avp",
-        "linkText": "Meet"
-      },
-      {
         "time": "8.40-10.15",
         "subject": "Програмування",
         "type": "pr",
         "typeLabel": "Пара",
         "teacher": "Веклич",
-        "link": "",
-        "linkText": "-"
+        "link": "https://knu-ua.zoom.us/j/83616411290?pwd=bo7ykPnLn6oFEAcedRgNxxB9ldMRUQ.1",
+        "linkText": "234"
       },
       {
         "time": "10.35-12.10",
         "subject": "Математичний аналіз",
-        "type": "lek",
+        "type": "pr",
         "typeLabel": "Пара",
         "teacher": "Аджубей",
-        "link": "",
-        "linkText": "-"
+        "link": "https://us05web.zoom.us/j/7886843784?pwd=MDdpTFZHamUvUUNnVUFHRUp6dStwQT09",
+        "linkText": "303"
       },
       {
         "time": "12.20-13.55",
@@ -504,8 +513,8 @@
         "type": "pr",
         "typeLabel": "Пара",
         "teacher": "Лисенко",
-        "link": "",
-        "linkText": "-"
+        "link": "https://us05web.zoom.us/j/6096223911?pwd=aC9qb0dIc2pwei9DVG85OVBpZkY2Zz09",
+        "linkText": "311"
       },
       {
         "time": "14.05-15.40",
@@ -514,7 +523,7 @@
         "typeLabel": "Пара",
         "teacher": "Сторожук",
         "link": "https://us05web.zoom.us/j/5045167345?pwd=RkFpc3p2TkpmS1BCWW9SMVRBeE1Bdz09&omn=83795793519",
-        "linkText": "Zoom"
+        "linkText": "18"
       },
       {
         "time": "16:00-17:00",
