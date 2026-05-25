@@ -33,7 +33,7 @@
       { "time": "14.05-15.40", "subject": "Українська та зарубіжна культура", "type": "pr", "typeLabel": "Пара", "teacher": "Сторожук", "link": "https://us05web.zoom.us/j/5045167345?pwd=RkFpc3p2TkpmS1BCWW9SMVRBeE1Bdz09&omn=83795793519", "linkText": "303" },
       { "time": "16:00-17:00", "subject": "Урок Вадим", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1", "linkText": "Zoom" },
       { "time": "17:00-18:00", "subject": "Урок Олег", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1", "linkText": "Zoom" }
-      ]
+    ]
   },
   "lower": {
     "Понеділок": [
@@ -46,7 +46,7 @@
     ],
     "Вівторок": [
       { "time": "10.35-12.10", "subject": "Програмування", "type": "pr", "typeLabel": "Пара", "teacher": "Карнаух", "link": "https://meet.google.com/san-qkey-oku", "linkText": "Meet" },
-       { "time": "19:00-20:00", "subject": "Урок Олег", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1", "linkText": "Zoom" }
+      { "time": "19:00-20:00", "subject": "Урок Олег", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1", "linkText": "Zoom" }
     ],
     "Середа": [
       { "time": "10.35-12.10", "subject": "Іноземна мова", "type": "pr", "typeLabel": "Пара", "teacher": "Лисенко", "link": "https://us05web.zoom.us/j/6096223911?pwd=aC9qb0dIc2pwei9DVG85OVBpZkY2Zz09", "linkText": "1" },
@@ -61,9 +61,9 @@
     ],
     "П'ятниця": [
       { "time": "8.40-10.15", "subject": "Програмування", "type": "pr", "typeLabel": "Пара", "teacher": "Веклич", "link": "https://knu-ua.zoom.us/j/83616411290?pwd=bo7ykPnLn6oFEAcedRgNxxB9ldMRUQ.1", "linkText": "234" },
-      { "time": "10.35-12.10", "subject": "Математичний аналіз", "type": "pr", "typeLabel": "Пара", "teacher": "Аджубей", "link": "https://us05web.zoom.us/j/7886843784?pwd=MDdpTFZHamUvUUNnVUFHRUp6dStwQT09", "linkText":"303" },
-      { "time": "16:00-17:00", "subject": "Урок Вадим", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1", "linkText": "Zoom" }
-       { "time": "17:00-18:00", "subject": "Урок Олег", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1", "linkText": "Zoom" }
+      { "time": "10.35-12.10", "subject": "Математичний аналіз", "type": "pr", "typeLabel": "Пара", "teacher": "Аджубей", "link": "https://us05web.zoom.us/j/7886843784?pwd=MDdpTFZHamUvUUNnVUFHRUp6dStwQT09", "linkText": "303" },
+      { "time": "16:00-17:00", "subject": "Урок Вадим", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1", "linkText": "Zoom" },
+      { "time": "17:00-18:00", "subject": "Урок Олег", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1", "linkText": "Zoom" }
     ]
   }
 }
