@@ -1,9 +1,9 @@
 {
   "upper": {
     "Понеділок": [
-      { "time": "8.40-10.15", "subject": "Іноземна мова", "type": "pr", "typeLabel": "Пара", "teacher": "Лисенко / Дороніна", "link": "", "linkText": "" },
-      { "time": "10.35-12.10", "subject": "Іноземна мова", "type": "pr", "typeLabel": "Пара", "teacher": "Лисенко / Дороніна", "link": "", "linkText": "" },
-      { "time": "12.20-13.55", "subject": "Програмування мовою С++. Дод. розділи", "type": "pr", "typeLabel": "Пара", "teacher": "Терейковський / Скибицький", "link": "", "linkText": "" },
+      { "time": "8.40-10.15", "subject": "Іноземна мова", "type": "pr", "typeLabel": "Пара", "teacher": "Гринюк", "link": "", "linkText": "" },
+      { "time": "10.35-12.10", "subject": "Іноземна мова", "type": "pr", "typeLabel": "Пара", "teacher": "Гринюк", "link": "", "linkText": "" },
+      { "time": "12.20-13.55", "subject": "Програмування мовою С++. Дод. розділи", "type": "pr", "typeLabel": "Пара", "teacher": "Терейковський", "link": "", "linkText": "" },
       { "time": "14.05-15.40", "subject": "Основи національного спротиву", "type": "lek", "typeLabel": "Пара", "teacher": "", "link": "", "linkText": "" },
       { "time": "16:00-17:00", "subject": "Урок Вадим", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "", "linkText": "" },
       { "time": "17:00-18:00", "subject": "Урок Олег", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "", "linkText": "" },
@@ -13,8 +13,7 @@
     ],
     "Вівторок": [
       { "time": "8.40-10.15", "subject": "Основи національного спротиву", "type": "lek", "typeLabel": "Пара", "teacher": "", "link": "", "linkText": "" },
-      { "time": "10.35-12.10", "subject": "Об'єктно-орієнтоване програмування", "type": "pr", "typeLabel": "Пара", "teacher": "Омельчук Л.Л. / Галавай О.", "link": "", "linkText": "" },
-      { "time": "12.20-13.55", "subject": "Прогр. С++ (лаб) / Дискретна мат. (пр)", "type": "pr", "typeLabel": "Пара", "teacher": "Карнаух / Самойлов", "link": "", "linkText": "" },
+      { "time": "10.35-12.10", "subject": "Об'єктно-орієнтоване програмування", "type": "pr", "typeLabel": "Пара", "teacher": "Омельчук Л.Л.", "link": "", "linkText": "" },
       { "time": "16:00-17:00", "subject": "Урок Софійка", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "", "linkText": "" },
       { "time": "18:00-19:00", "subject": "Урок Сєва", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "", "linkText": "" }
     ],
@@ -38,20 +37,20 @@
     ],
     "П'ятниця": [
       { "time": "8.40-10.15", "subject": "Математична логіка", "type": "pr", "typeLabel": "Пара", "teacher": "Тоцький", "link": "", "linkText": "" },
-      { "time": "10.35-12.10", "subject": "Теорія ймовірностей", "type": "pr", "typeLabel": "Пара", "teacher": "Розора І.В. / Моринець В.", "link": "", "linkText": "" },
-      { "time": "12.20-13.55", "subject": "Диференціальні рівняння", "type": "pr", "typeLabel": "Пара", "teacher": "Васін П.О. / Башняков О.М.", "link": "", "linkText": "" },
+      { "time": "10.35-12.10", "subject": "Теорія ймовірностей", "type": "pr", "typeLabel": "Пара", "teacher": "Уразовський А. В.", "link": "", "linkText": "" },
+      { "time": "12.20-13.55", "subject": "Диференціальні рівняння", "type": "pr", "typeLabel": "Пара", "teacher": "Васін П.О.", "link": "", "linkText": "" },
       { "time": "17:00-18:00", "subject": "Пробний урок Аріна", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "", "linkText": "" },
       { "time": "18:00-19:00", "subject": "Урок Артур", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "", "linkText": "" }
     ],
     "Субота": [
-      { "time": "16:00-17:00", "subject": "Урок Софія Ф.", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "", "linkText": "" }
+      { "time": "13:00-14:00", "subject": "Урок Софія Ф.", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "", "linkText": "" }
     ]
   },
   "lower": {
     "Понеділок": [
-      { "time": "8.40-10.15", "subject": "Іноземна мова", "type": "pr", "typeLabel": "Пара", "teacher": "Лисенко / Дороніна", "link": "", "linkText": "" },
-      { "time": "10.35-12.10", "subject": "Іноземна мова", "type": "pr", "typeLabel": "Пара", "teacher": "Лисенко / Дороніна", "link": "", "linkText": "" },
-      { "time": "12.20-13.55", "subject": "Програмування мовою С++. Дод. розділи", "type": "pr", "typeLabel": "Пара", "teacher": "Терейковський / Скибицький", "link": "", "linkText": "" },
+      { "time": "8.40-10.15", "subject": "Іноземна мова", "type": "pr", "typeLabel": "Пара", "teacher": "Гринюк", "link": "", "linkText": "" },
+      { "time": "10.35-12.10", "subject": "Іноземна мова", "type": "pr", "typeLabel": "Пара", "teacher": "Гринюк", "link": "", "linkText": "" },
+      { "time": "12.20-13.55", "subject": "Програмування мовою С++. Дод. розділи", "type": "pr", "typeLabel": "Пара", "teacher": "Терейковський", "link": "", "linkText": "" },
       { "time": "14.05-15.40", "subject": "Основи національного спротиву", "type": "lek", "typeLabel": "Пара", "teacher": "", "link": "", "linkText": "" },
       { "time": "16:00-17:00", "subject": "Урок Вадим", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "", "linkText": "" },
       { "time": "17:00-18:00", "subject": "Урок Олег", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "", "linkText": "" },
@@ -61,8 +60,7 @@
     ],
     "Вівторок": [
       { "time": "8.40-10.15", "subject": "Основи національного спротиву", "type": "lek", "typeLabel": "Пара", "teacher": "", "link": "", "linkText": "" },
-      { "time": "10.35-12.10", "subject": "Об'єктно-орієнтоване програмування", "type": "pr", "typeLabel": "Пара", "teacher": "Омельчук Л.Л. / Галавай О.", "link": "", "linkText": "" },
-      { "time": "12.20-13.55", "subject": "Прогр. С++ (лаб) / Дискретна мат. (пр)", "type": "pr", "typeLabel": "Пара", "teacher": "Карнаух / Самойлов", "link": "", "linkText": "" },
+      { "time": "10.35-12.10", "subject": "Об'єктно-орієнтоване програмування", "type": "pr", "typeLabel": "Пара", "teacher": "Омельчук Л.Л..", "link": "", "linkText": "" },
       { "time": "16:00-17:00", "subject": "Урок Софійка", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "", "linkText": "" },
       { "time": "18:00-19:00", "subject": "Урок Сєва", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "", "linkText": "" }
     ],
@@ -77,7 +75,6 @@
     "Четвер": [
       { "time": "8.40-10.15", "subject": "Диференціальні рівняння", "type": "lek", "typeLabel": "Пара", "teacher": "Башняков О.М.", "link": "", "linkText": "" },
       { "time": "10.35-12.10", "subject": "Математична логіка", "type": "lek", "typeLabel": "Пара", "teacher": "Шкільняк С.С.", "link": "", "linkText": "" },
-      { "time": "12.20-13.55", "subject": "Дискретна математика", "type": "lek", "typeLabel": "Пара", "teacher": "Карнаух Т.О.", "link": "", "linkText": "" },
       { "time": "14.05-15.40", "subject": "Основи національного спротиву (по датах)", "type": "lek", "typeLabel": "Пара", "teacher": "", "link": "", "linkText": "" },
       { "time": "16:00-17:00", "subject": "Урок Софійка", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "", "linkText": "" },
       { "time": "17:00-18:00", "subject": "Урок Маринка", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "", "linkText": "" },
@@ -86,8 +83,8 @@
     ],
     "П'ятниця": [
       { "time": "8.40-10.15", "subject": "Математична логіка", "type": "pr", "typeLabel": "Пара", "teacher": "Тоцький", "link": "", "linkText": "" },
-      { "time": "10.35-12.10", "subject": "Теорія ймовірностей", "type": "pr", "typeLabel": "Пара", "teacher": "Розора І.В. / Моринець В.", "link": "", "linkText": "" },
-      { "time": "12.20-13.55", "subject": "Диференціальні рівняння", "type": "pr", "typeLabel": "Пара", "teacher": "Васін П.О. / Башняков О.М.", "link": "", "linkText": "" },
+      { "time": "10.35-12.10", "subject": "Теорія ймовірностей", "type": "pr", "typeLabel": "Пара", "teacher": "Уразовський А. В.", "link": "", "linkText": "" },
+      { "time": "12.20-13.55", "subject": "Диференціальні рівняння", "type": "pr", "typeLabel": "Пара", "teacher": "Васін П.О.", "link": "", "linkText": "" },
       { "time": "17:00-18:00", "subject": "Пробний урок Аріна", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "", "linkText": "" },
       { "time": "18:00-19:00", "subject": "Урок Артур", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "", "linkText": "" }
     ],
