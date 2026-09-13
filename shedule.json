@@ -23,7 +23,7 @@
       { "time": "10.35-12.10", "subject": "Об'єктно-орієнтоване програмування", "type": "lek", "typeLabel": "Пара", "teacher": "Омельчук Л.Л.", "link": "", "linkText": "" },
       { "time": "12.20-13.55", "subject": "Математична логіка", "type": "lek", "typeLabel": "Пара", "teacher": "Шкільняк С.С.", "link": "", "linkText": "" },
       { "time": "16:00-17:00", "subject": "Урок Вадим", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1", "linkText": "" },
-      { "time": "17:00-18:00", "subject": "Урок Олег", "type": "ind", "typeLabel": "Інд", "teacher": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1", "link": "", "linkText": "" },
+      { "time": "17:00-18:00", "subject": "Урок Олег", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1", "linkText": "" },
       { "time": "18:00-19:00", "subject": "Урок Артур", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "https://us05web.zoom.us/j/85890954549?pwd=7vPzlpqs175m5c7oiDa2JSJX1HtH1j.1", "linkText": "" }
     ],
     "Четвер": [
@@ -43,7 +43,7 @@
       { "time": "12.20-13.55", "subject": "Диференціальні рівняння", "type": "pr", "typeLabel": "Пара", "teacher": "Васін П.О.", "link": "", "linkText": "" }
     ],
     "Субота": [
-       { "time": "13.00-14.55", "subject": "Урок Діана", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1", "linkText": "" },
+      { "time": "13:00-14:55", "subject": "Урок Діана", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1", "linkText": "" },
       { "time": "17:00-18:00", "subject": "Урок Софія Ф.", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1", "linkText": "" }
     ]
   },
@@ -61,7 +61,7 @@
     ],
     "Вівторок": [
       { "time": "8.40-10.15", "subject": "Основи національного спротиву", "type": "lek", "typeLabel": "Пара", "teacher": "", "link": "", "linkText": "" },
-      { "time": "10.35-12.10", "subject": "Об'єктно-орієнтоване програмування", "type": "pr", "typeLabel": "Пара", "teacher": "Омельчук Л.Л..", "link": "", "linkText": "" },
+      { "time": "10.35-12.10", "subject": "Об'єктно-орієнтоване програмування", "type": "pr", "typeLabel": "Пара", "teacher": "Омельчук Л.Л.", "link": "", "linkText": "" },
       { "time": "16:00-17:00", "subject": "Урок Софійка", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9", "linkText": "" },
       { "time": "18:00-19:00", "subject": "Урок Сєва", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "https://us05web.zoom.us/j/87180665154?pwd=p5ybJFzENbNayZZLMpbiU4UOb6J431.1", "linkText": "" },
       { "time": "19:00-20:00", "subject": "Урок Аріна", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1", "linkText": "" }
@@ -90,7 +90,7 @@
       { "time": "12.20-13.55", "subject": "Диференціальні рівняння", "type": "pr", "typeLabel": "Пара", "teacher": "Васін П.О.", "link": "", "linkText": "" }
     ],
     "Субота": [
-      { "time": "13.00-14.55", "subject": "Урок Діана", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1", "linkText": "" },
+      { "time": "13:00-14:55", "subject": "Урок Діана", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1", "linkText": "" },
       { "time": "17:00-18:00", "subject": "Урок Софія Ф.", "type": "ind", "typeLabel": "Інд", "teacher": "", "link": "https://us05web.zoom.us/j/86860498404?pwd=3z5DCmakQLI4FPkj4kAlDKeIWju4y9.1", "linkText": "" }
     ]
   }
